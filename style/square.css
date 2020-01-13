@@ -1,0 +1,37 @@
+body{
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.red-square{
+    width: 50%;
+    height: 285px;
+    background-color: red;
+    
+}
+
+.blue-square{
+    width: 50%;
+    height: 285px;
+    background-color: blue;
+    float: right;
+}
+
+.green-square{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    margin:0 auto;
+    z-index: 1;
+    vertical-align: auto;
+    bottom: 200px;
+
+}
+
+.parents{
+    width: 600px;
+    height: 570px;
+    border: 5px solid black;
+}
