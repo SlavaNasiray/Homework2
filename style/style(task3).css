@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    clear: both; 
+}
+
 header{
     width: 90%;
     height: 15%;
@@ -7,15 +12,34 @@ header{
     text-align: center;
 }
 
-.sidebar{
-    position: fixed;
+nav   {
     width: 10%;
     height: 600px;
-    background-color: rgba(9, 12, 195, 0.5);
-    margin-top: 5px;
-}    
-
-.content-site{
-    
-
+    background-color: rgba(209, 163, 10, 0.5);
+    position: fixed;
+    margin-left: 5%; 
 }
+
+article{
+    float: left;
+    width: 80%;
+    height: 600px;
+    background-color: brown;
+    margin-left: 15%;
+    padding: 5px;
+    text-align: justify;
+}
+   
+footer{
+     width: 90%;
+     height: 15%;
+     margin: 0 5% 0 5%;
+     border-radius: 10px 10px 0 0;
+     background-color: rgba(10, 209, 203, 1);
+     position: relative;
+     z-index: 1;
+}
+
+body{
+    margin: 0 auto;
+}    
