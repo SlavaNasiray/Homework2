@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: -4px;
+}
 .block1,.block2{
     margin: 0 auto;
     border: 1px solid black;
